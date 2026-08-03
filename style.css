@@ -1,1 +1,32 @@
 /* The Odin Project - Landing Page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+.header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+
+a{
+    text-decoration: none;
+}
