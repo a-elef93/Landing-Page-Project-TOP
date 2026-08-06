@@ -1,38 +1,49 @@
-# The Odin Project - Landing Page
+# FlowSpace Landing Page
 
-This repository contains my solution for the **Landing Page** project from **The Odin Project**.
+A modern and minimal landing page built as part of **The Odin Project – Foundations**.
 
-## 🚀 Project Goals
+FlowSpace is a fictional brand focused on premium productivity setups and ergonomic workspace accessories. The website follows a clean, Apple-inspired design with a strong emphasis on simplicity, readability, and user experience.
 
-The purpose of this project is to practice:
+## Features
 
-- HTML structure
-- CSS Flexbox
-- Nested Flex Containers
-- Spacing (margin, padding, gap)
-- Typography
-- Layout creation from a design
+- Responsive Flexbox layout
+- Modern navigation bar
+- Hero section with call-to-action
+- Product showcase cards
+- Inspirational quote section
+- Call-to-action banner
+- Minimal footer
+- Custom branding and logo
+- Roboto typography
 
-## 🛠️ Technologies
+## Built With
 
 - HTML5
 - CSS3
 - Flexbox
+- Google Fonts (Roboto)
 
-## 📚 What I Learned
+## What I Learned
 
 During this project I practiced:
 
-- Creating layouts using Flexbox
-- Building reusable containers
-- Structuring HTML correctly
-- Understanding parent-child relationships in CSS
-- Applying spacing using margin, padding and gap
+- Semantic HTML structure
+- Flexbox layouts
+- CSS spacing (margin & padding)
+- Positioning elements
+- Working with images
+- Typography
+- Building complete page layouts from a design reference
+- Organizing HTML into reusable sections
 
-## 📷 Preview
+## Preview
 
-*A screenshot will be added after completing the project.*
+![FlowSpace Preview](images/preview.png)
 
+## Live Demo
 
+Coming Soon
 
-GitHub: https://github.com/a-elef93
+## Author
+
+Created by **Tasos El**
