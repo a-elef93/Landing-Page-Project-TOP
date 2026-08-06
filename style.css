@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* HEADER SECTION */
 .navbar ul{
     list-style: none;
@@ -22,6 +29,9 @@ a{
 
 .top-section{
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding:20px 120px 80px;
     background-color: #1F2937;
 }
@@ -65,16 +75,18 @@ h2{
 .left-hero p{
     font-size: 18px;
     color: #E5E7EB;
-    margin: 12px;
+    margin: 20px 0;
 }
 
 .sign-up{
-    background-color: #3882F6;
-    color: #E5E7EB;
-    padding: 10px;
-    width: 120px;
-    height: 40px;
-    border-radius: 25px;
+    width:140px;
+    height:42px;
+    border:none;
+    border-radius:8px;
+    background:#3882F6;
+    color:white;
+    font-weight:700;
+    cursor:pointer;
 
 }
 
@@ -85,8 +97,10 @@ h2{
 }
 
 .hero-logo{
-    width: 280px;
-    height: 180px;
+    width:420px;
+    height:260px;
+    object-fit:cover;
+    border-radius:12px;
 }
 
 /* INFORMATION SECTION */
@@ -95,6 +109,7 @@ h2{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 800px;
 }
 
 .information h3{
@@ -124,19 +139,52 @@ h2{
 .quote{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #E5E7EB;
-    align-items: center;
+    height: 300px;
+    width: 800px;
+    margin-top: 50px;
+    padding: 50px;
 }
 
 .quote p{
-
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
+    padding: 0;
 }
 
 .quote h4{
+    align-self: flex-end;
+    margin-top:20px;
+    margin-right:20px;
+    color:#1F2937;
+    font-size:22px;
+}
+
+/* CTA SECTION */
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 60px;
+    width: 500px;
+    height: 80px;
+    background-color: #3882F6;
+}
+
+.left-cta h5{
     font-size: 16px;
-    margin-left: auto;
+}
+
+.left-cta h5,.left-cta p{
+    color: white;
+    padding: 15px;
+}
+
+.left-cta p{
+    font-size: 12px;
 }
