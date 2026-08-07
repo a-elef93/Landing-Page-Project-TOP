@@ -36,13 +36,6 @@ During this project I practiced:
 - Building complete page layouts from a design reference
 - Organizing HTML into reusable sections
 
-## Preview
-
-![FlowSpace Preview](images/preview.png)
-
-## Live Demo
-
-Coming Soon
 
 ## Author
 
